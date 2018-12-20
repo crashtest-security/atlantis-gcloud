@@ -1,4 +1,4 @@
-FROM runatlantis/atlantis:latest
+FROM runatlantis/atlantis:v0.4.13
 
 # Taken from https://github.com/GoogleCloudPlatform/cloud-sdk-docker/blob/master/alpine/Dockerfile
 ARG CLOUD_SDK_VERSION=228.0.0
