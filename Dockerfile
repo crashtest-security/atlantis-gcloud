@@ -1,7 +1,7 @@
-FROM runatlantis/atlantis:v0.6.0
+FROM runatlantis/atlantis:v0.8.2
 
 # Taken from https://github.com/GoogleCloudPlatform/cloud-sdk-docker/blob/master/alpine/Dockerfile
-ARG CLOUD_SDK_VERSION=239.0.0
+ARG CLOUD_SDK_VERSION=250.0.0
 ENV CLOUD_SDK_VERSION=$CLOUD_SDK_VERSION
 
 ENV PATH /google-cloud-sdk/bin:$PATH
